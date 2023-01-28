@@ -1,0 +1,37 @@
+body{
+    background-image: url('image1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Head{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    font-size:xx-large ;
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    color: antiquewhite;
+    }
+.links{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size:small ;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   border: 2px,grey;
+}
+.like{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    font-size:large ;
+    color: antiquewhite;
+}
+.images{
+    margin-left: 50%;
+    
+}
+
+
+.LOTR,.Messi,.Python{
+    border-radius: 150%;
+}

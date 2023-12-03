@@ -9,3 +9,34 @@ body{
     font-size: 2.5vw;
     margin-top: 6vw;
 }
+.head{
+    text-align: center;
+}
+.Joblist{
+
+    display: inline-block;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+
+}
+.Job1{
+
+    background-color: rgb(237, 242, 245);
+    padding-left: 11px;
+    padding-top:6px;
+    width: 300px;
+    height:300px ;
+    border-radius: 13%;
+    display: grid;
+    grid-template-columns: 120px 200px;
+    row-gap: 0x;
+    
+}
+
+img{
+    border-radius: 50%;
+    float: left;
+    width:100px;
+    height: 100px;
+}
